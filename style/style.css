@@ -1,0 +1,28 @@
+.nav-bar {
+    background-color: black;
+}
+
+.nav-links-container {
+    text-align: center;
+    color: white;
+}
+.nav-links-container a:link {
+    text-decoration: none;
+}
+
+.nav-links-container a:active {
+    text-decoration: underline;
+}
+
+.nav-links-container a:visited {
+    color: white;
+}
+
+.main-container {
+}
+
+:root {
+    background-image: linear-gradient(#275d8f, #5b96ce);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
