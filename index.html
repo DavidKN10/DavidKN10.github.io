@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>David Rivera-Chino</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<header>
-    <div class="nav-bar">
-        <div class="nav-links-container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/projects.html">Projects</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-                <li><a href="pages/blog.html">Blog</a></li>
-            </ul>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Rivera-Chino Website</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+
+    <!--navbar-->
+    <nav class="bg-white shadow sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto px-4 flex justify-between tiems-center h-16">
+        <a href="#" class="font-bold text-xl">David Rivera-Chino</a>
+        <div class="space-x-4 hidden md:flex">
+          <a href="#about" class="hover:text-blue-500">About</a>
+          <a href="#projects" class="hover:text-blue-500">Projects</a>
+          <a href="#skills" class="hover:text-blue-500">Skills</a>
+          <a href="#contact" class="hover:text-blue-500">Contact</a>
         </div>
-    </div>
-</header>
-<body>
-    <div class="main-container">
-        <h2>Hello, my name is David.</h2>
-        <p>I'm a third year Computer Science undergraduate at
-            Illinois institute of Technology. With a passion for coding and
-            problem-solving, I enjoy building projects that challenge me to learn
-            new technologies and improve my skills. When I am not programming, you
-            will find me listening to music, watching YouTube, or playing video games.</p>
-        <button type="button">View Projects</button>
-        <button type="button">Download Resume</button>
-    </div>
-</body>
-<footer>
-    <div class="footer-section">
-        <footer>
-            <h2>Connect With Me</h2>
-        </footer>
-    </div>
-</footer>
+      </div>
+    </nav>
+
+    <!--hero section-->
+    <section class="text-center py-20">
+      <h1 class="text-4xl font-bold mt-4">Hello, I am David</h1>
+      <p class="mt-2 text-lg text-gray-600">Full-stack Developer | Problem Solver</p>
+      <a href="#projects" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition">View My Work</a>
+
+    </section>
+    
+    <!--about section-->
+    <section id="about" class="max-w-4xl mx-auto px-4 py-20">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-gray-700">I bould clean, responsive and functional websites and applications</p>
+    </section>
+
+    <!-- projects section-->
+    <section id="projects" class="bg-gray-50 py-20">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8">Projects</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow p-4">
+            <h3 class="font-smibold text-lg"> Project Name</h3>
+            <p class="text-gray-600 mot-2"> Short description...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section-->
+    <section id="contact" class="max-w-4xl mx-auto px-4 py-20">
+      <h2 class="text-3xl font-bold mb-4">Contact</h2>
+      <p class="mb-4">Fell free to reach out</p>
+      <a class="text-blue-500 hover:underline">abcd@gmail.com</a>
+    </section>
+    
+    <script scr="assets/js/main.js"></script>
+  </body>
 </html>
